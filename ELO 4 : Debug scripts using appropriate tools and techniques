@@ -1,0 +1,17 @@
+In these 2 buggy codes below:
+#python
+def add(x,y):
+    print(x+y)
+result = add(5)
+
+#R
+ add<-function(x,y) {x+y}
+ add(3)
+
+These last line of both codes above only gives a value to the x variable and hence we need to add the y values so each will be:
+
+#python
+result = add(5,2)
+
+#R
+add(3,7)
